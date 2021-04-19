@@ -1,0 +1,116 @@
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.bg {
+  background-color: #61dafb;
+}
+.warning {
+  color: #ffd902;
+}
+.danger {
+  color: #f30a0a;
+}
+.success {
+  color: #07b349;
+}
+.primary{
+  color: #1708ec;
+  font-weight:bold ;
+  text-align:center;
+  
+}
+.warn {
+  background-color: #ffd902;
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-left: 5px;
+  
+}
+.dang {
+  background-color:#f30a0a;
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-left: 5px;
+
+}
+
+.dark {
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+  margin-left: 5px;
+
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  width:"1000";
+  height:"300"
+}
+.component-app {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+
+}
+.quodrant{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.qtop,
+.qbottom{
+  width: 100%;
+  height: 50%;
+}
+
+.quodrant1,
+.quodrant2,
+.quodrant3,
+.quodrant4{
+  display: inline;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.quodrant1{
+  top: 0%;
+  left: 50%;
+}
+
+.quodrant2{
+  top: 0%;
+  left: 0%;
+}
+.quodrant3{
+  top: 50%;
+  left: 0%;
+}
+
+.quodrant4{ 
+  top: 50%;
+  left: 50%;
+}
+
